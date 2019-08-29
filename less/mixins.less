@@ -10,4 +10,7 @@
     text-align: @txt-position;
 }
 
-// .font-size(@size)
+.position(@order: row, @align) {
+    flex-direction: @order;
+    align-items: @align;
+}

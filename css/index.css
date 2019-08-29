@@ -168,6 +168,20 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px dashed grey;
+  padding: 10px;
+}
+header nav a {
+  font-size: 15px;
+  padding: 10px;
+  color: #212529;
+  text-decoration: none;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -231,8 +245,9 @@ img {
   justify-content: center;
   align-content: center;
   text-align: center;
+  width: 200px;
   padding: 15px;
   color: #FFFFFF;
   background: #17A2B8;
-  font-size: 20px;
+  font-size: 15px;
 }
