@@ -1,1 +1,16 @@
 // Mixins in here
+.btn-border(@bordered: none, @edge) {
+    border: @bordered;
+    border-radius: @edge;
+}
+
+.center(@justify: center; @align: center; @txt-position: center) {
+    justify-content: @justify;
+    align-content: @align;
+    text-align: @txt-position;
+}
+
+.position(@order: row, @align) {
+    flex-direction: @order;
+    align-items: @align;
+}

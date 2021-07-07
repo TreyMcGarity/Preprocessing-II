@@ -1,1 +1,25 @@
 // Navigation Styles here
+header {
+    display: flex;
+    justify-content: space-between;
+    .position(row, center);
+    border-bottom: 1px dashed grey;
+    padding: 10px;
+
+    nav {
+
+        a {
+          font-size: @txt-size;
+          padding: 10px;
+          color: @shark;
+          text-decoration: none;  
+        }
+      
+      @media @mobile {
+        header {
+          .position(column, center);
+        }
+      }
+    }
+    
+}
